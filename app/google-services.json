@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516760086209",
+    "project_id": "khan-whatsapp-11357",
+    "storage_bucket": "khan-whatsapp-11357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516760086209:android:d60fe1f15f735f556a5640",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516760086209-gllr6fl5u1rtgv79arr9b4ndbefrfslr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaE_akIPJwOR6kFXCNAl2xk3qMQs_KCq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516760086209-gllr6fl5u1rtgv79arr9b4ndbefrfslr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

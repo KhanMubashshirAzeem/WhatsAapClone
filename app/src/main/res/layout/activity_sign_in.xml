@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/softWhite"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20sp"
+    tools:context=".SignInActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whatsapp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/emailEtIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:hint="Email"
+        android:background="@drawable/round_button"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/passwordEtIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/round_button"
+        android:textSize="30dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/clickSignupTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for SignUp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_gravity="end"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/white"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signinBtn"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/colorPrimaryDark"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/googleBtnIn"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Google"
+            android:textSize="24sp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/google"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="5dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/facebookBtnIn"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Facebook"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/facebook"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@color/facebook"
+            android:layout_marginStart="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/signupPhoneBtnIn"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with phone"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+</LinearLayout>
