@@ -1,3 +1,13 @@
 # WhatsAapClone
-| ![image](https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/d79b3dca-d1ea-4b7f-95ef-d9b66dccdf59) |  ![image](https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/5bd98e5a-08b2-49dd-b06b-6f9bdebb5801) |
-![image](https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/c1a49334-34c2-449f-bdca-e64e15dd679d)
+## Side-by-Side Images
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="![image](https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/f59fbc74-6b2d-46bb-86c3-427df8ef20eb)
+" alt="Image 1" width="45%">
+    <img src="![image](https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/2aff5393-d7d0-4172-9d60-3a898f603ce9)
+ " alt="Image 2" width="45%">
+
+      <img src="![image](https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/11eab4e8-aae4-40c7-bdb7-778976d95ca4)
+" alt="Image 2" width="45%">
+
+</div>
