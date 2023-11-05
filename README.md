@@ -16,3 +16,9 @@
     <img src="https://github.com/KhanMubashshirAzeem/WhatsAapClone/assets/123080070/f86ef154-f581-4b17-8d4f-58966a70c204" alt="Image 6" width="30%">
 </div>
 
+
+<h3>ToDo in this application</h3> 
+1. Update the complete UI.<br>
+2. Implement a profile update feature.<br>
+3. One to One chatting is very slow we have to improve that also.<br>
+
